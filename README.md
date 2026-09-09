@@ -1,6 +1,6 @@
 # 🔍 WordChecker - Lexical Filtering - API Project 2021/22
 
-*You can read this also in [Italiano](readme.it.md)*
+*You can read this also in [Italiano](README.it.md)*
 
 > **Academic Note:** This project was developed as the Final Project for the *Algoritmi e Principi dell'Informatica* course at Politecnico di Milano (Academic Year 2021/22), achieving a final grade of **30/30 cum laude**. The code was evaluated by an automated grader strictly enforcing execution time and memory usage limits.
 
