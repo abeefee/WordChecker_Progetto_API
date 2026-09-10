@@ -25,6 +25,13 @@ Essendo un progetto focalizzato sull'efficienza algoritmica, l'implementazione h
   * **Callgrind:** Utilizzato per profilare i tempi di esecuzione, identificare i colli di bottiglia e ottimizzare le performance (es. l'attraversamento dell'albero).
   * **Massif:** Utilizzato per profilare e ottimizzare l'occupazione dell'heap memory, rientrando nei severi vincoli spaziali richiesti dal correttore.
 
+### Struttura della Repository
+`src/`: Contiene il file sorgente principale (wordchecker.c).
+
+`docs/`: Include le specifiche/regole originali.
+
+`tests/`: Contiene i test usati come benchmark.
+
 ### Compilazione ed Esecuzione
 Il progetto non necessita di dipendenze esterne. 
 

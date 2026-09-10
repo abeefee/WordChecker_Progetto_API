@@ -25,6 +25,13 @@ As an algorithm-focused project, the implementation required careful data struct
   * **Callgrind:** Used to profile code execution, identify bottlenecks, and optimize the custom string comparison functions.
   * **Massif:** Used to monitor and minimize heap memory footprint, ensuring the data structures stayed within the strict automated grader limits.
 
+### Repository Structure
+`src/`: Contains the main source file (wordchecker.c).
+
+`docs/`: Includes the original rules/specifications.
+
+`tests/`: Contains the tests used to benchmark.
+
 ### Compilation & Execution
 No external dependencies are required. 
 
