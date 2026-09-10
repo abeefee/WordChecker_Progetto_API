@@ -1,4 +1,4 @@
-# 🔍 WordChecker - Lexical Filtering - Progetto API 2021/22
+# WordChecker - Lexical Filtering - Progetto API 2021/22
 
 *You can read this also in [English](README.md)*
 
@@ -26,13 +26,14 @@ Essendo un progetto focalizzato sull'efficienza algoritmica, l'implementazione h
   * **Massif:** Utilizzato per profilare e ottimizzare l'occupazione dell'heap memory, rientrando nei severi vincoli spaziali richiesti dal correttore.
 
 ### Compilazione ed Esecuzione
-Il progetto non necessita di dipendenze esterne. Per compilarlo:
+Il progetto non necessita di dipendenze esterne. 
 
+* Per compilarlo:
 ```bash
 gcc -Wall -Werror -O2 -g3 src/wordchecker.c -o wordchecker
 ```
 
-Per eseguire i test:
-
+* Per eseguire i test:
 ```bash
 ./wordchecker < tests/test1.txt > my_output.txt
+```

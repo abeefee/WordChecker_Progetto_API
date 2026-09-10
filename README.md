@@ -1,4 +1,4 @@
-# 🔍 WordChecker - Lexical Filtering - API Project 2021/22
+# WordChecker - Lexical Filtering - API Project 2021/22
 
 *Puoi anche leggerlo in [Italiano](README.it.md)*
 
@@ -26,13 +26,14 @@ As an algorithm-focused project, the implementation required careful data struct
   * **Massif:** Used to monitor and minimize heap memory footprint, ensuring the data structures stayed within the strict automated grader limits.
 
 ### Compilation & Execution
-No external dependencies are required. To compile:
+No external dependencies are required. 
 
+* To compile:
 ```bash
 gcc -Wall -Werror -O2 -g3 src/wordchecker.c -o wordchecker
 ```
 
-To run tests:
-
+* To run tests:
 ```bash
 ./wordchecker < tests/test1.txt > my_output.txt
+```
